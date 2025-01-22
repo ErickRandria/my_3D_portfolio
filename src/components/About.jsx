@@ -46,13 +46,20 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-7xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        {/* I graduated from the <a href="https://www.leeds.ac.uk/" className="text-orange-600">University of Leeds</a>, UK, 
+        with a background in Data Science and Python programming. Passionate about technology and coding, I enjoy exploring 
+        new possibilities in computing. This enthusiasm led me to work as an Assistant Professor
+        in the Math and Physics Laboratory, where I assisted students with Python programming
+        and provided IT support, including troubleshooting technical issues and managing hardware
+        upgrades and system repairs. <br className='sm:block hidden' />
+         */}
+        
+        I'm a skilled software developer with expertise in TypeScript and JavaScript, specializing in frameworks 
+        like React, React Native and Node.js. A quick learner, I work closely with clients to build scalable, efficient, 
+        and user-friendly solutions that bring ideas to life. I'm also passionate about contributing to open-source 
+        projects and engaging with the developer community on social networks.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

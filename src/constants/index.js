@@ -23,6 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    // upwork,
+    // antananarivo,
+    // kontiki,
+    // ibm,
+    // google,
+    // ska,
+    // leeds,
+
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +62,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Engineer",
       icon: creator,
     },
   ];
@@ -116,55 +124,60 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "IBM DevOps and Software Engineer",
+      company_name: "IBM, Coursera",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2024  - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained hands-on experience in DevOps practices, including continuous integration (CI) and continuous delivery (CD).",
+        "Developed proficiency in using DevOps tools like Jenkins, Git, and Docker to automate workflows.",
+        "Implemented cloud solutions and containerized applications using Kubernetes and Docker.",
+        "Learned about infrastructure as code (IaC) using tools such as Terraform.",
+        "Applied Agile methodologies to project management and software development.",
+        "Collaborated in team-based environments to deliver scalable, reliable, and efficient software solutions.",
+        "Enhanced troubleshooting and debugging skills in both development and production environments."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Introduction to Generative AI Learning Path",
+      company_name: "Google, Coursera",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained foundational knowledge in AI, deep learning, and generative models.",
+        "Hands-on experience with GANs, VAEs, NLP models (GPT, BERT), and advanced techniques.",
+        "Developed AI projects including text, image, and audio generation.",
+        "Explored ethics and best practices for responsible AI development.",
       ],
     },
     {
-      title: "Web Developer",
+      title: "Junior FullStack (React.js + Node.js) Developer",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Customized existing applications to meet specific client needs.",
+        "Designed and built RESTful APIs and microservices with Node.js and Express.js.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "IT Lab Technician",
+      company_name: "University of Leeds",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "April 2019 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Troubleshoot hardware, software, and network issues in the lab environment.",
+        "Install, configure, and maintain operating systems, applications, and lab-specific software.",
+        "Provide technical assistance to students, instructors, or researchers during lab sessions.",
+        "Set up and maintain IT and lab equipment, such as computers, servers, projectors, and peripherals.",
+        "Assist in the demonstration of technical or experimental procedures when required.",
+        "Manage cybersecurity measures, including antivirus updates, firewalls, and data backup.",
       ],
     },
   ];
