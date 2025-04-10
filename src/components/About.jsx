@@ -56,10 +56,10 @@ const About = () => {
         upgrades and system repairs. <br className='sm:block hidden' />
          */}
         
-        I'm a skilled software developer with expertise in TypeScript and JavaScript, specializing in frameworks 
-        like React, React Native and Node.js. A quick learner, I work closely with clients to build scalable, efficient, 
-        and user-friendly solutions that bring ideas to life. I'm also passionate about contributing to open-source 
-        projects and engaging with the developer community on social networks.
+        I'm a skilled data scientist with expertise in Python and SQL, specializing in machine learning, 
+        data analysis, and visualization. A fast learner, I collaborate closely with stakeholders to build 
+        scalable, insight-driven solutions that turn data into action. I'm also passionate about open-source
+         contributions and sharing knowledge within the data community.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
