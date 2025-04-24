@@ -102,7 +102,7 @@ import {
     {
       name: "Javascript",
       icon: javascript,
-    }
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -248,16 +248,16 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolio  ,
+      source_code_link: "https://github.com/ErickRandria/my_3D_portfolio",
     },
     {
       name: "Trip Guide",
