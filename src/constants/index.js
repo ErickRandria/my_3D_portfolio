@@ -1,3 +1,4 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
 import {
     mobile,
     backend,
@@ -91,9 +92,17 @@ import {
       icon: flask,
     },
     {
+      name: "React",
+      icon: reactjs,
+    },
+    {
       name: "Power BI",
       icon: powerbi,
     },
+    {
+      name: "Javascript",
+      icon: javascript,
+    }
     {
       name: "HTML 5",
       icon: html,
