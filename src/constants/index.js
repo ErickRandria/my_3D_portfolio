@@ -29,6 +29,7 @@ import {
     ska,
     leeds,
     odity,
+    // powerbi,
   } from "../assets";
   
   export const navLinks = [
@@ -66,6 +67,10 @@ import {
   ];
   
   const technologies = [
+    // {
+    //   name: "Power BI",
+    //   icon: powerbi,
+    // },
     {
       name: "HTML 5",
       icon: html,
