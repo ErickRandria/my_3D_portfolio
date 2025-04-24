@@ -26,7 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import ibm from "./company/ibm.png";
-
+import google from "./company/google.png";
+import antananarivo from "./company/antananarivo.png";
+import ska from "./company/ska.png";
+import leeds from "./company/leeds.png";
+import odity from "./company/odity.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,4 +66,9 @@ export {
   jobit,
   tripguide,
   ibm,
+  antananarivo,
+  google,
+  ska,
+  leeds,
+  odity,
 };

@@ -23,7 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    antananarivo,
     ibm,
+    google,
+    ska,
+    leeds,
+    odity,
   } from "../assets";
   
   export const navLinks = [
@@ -103,7 +108,7 @@ import {
     {
       title: "Introduction to Generative AI Learning Path",
       company_name: "Google, Coursera",
-      icon: tesla,
+      icon: google,
       iconBg: "#E6DEDD",
       date: "August 2024",
       points: [
@@ -116,7 +121,7 @@ import {
     {
       title: "Data Scientist",
       company_name: "Odity",
-      icon: shopify,
+      icon: odity,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -131,7 +136,7 @@ import {
     {
       title: "Data Scientist researcher",
       company_name: "University of Leeds",
-      icon: meta,
+      icon: leeds,
       iconBg: "#E6DEDD",
       date: "April 2019 - May 2021",
       points: [
@@ -150,27 +155,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Erick quickly turned complex data into clear insights. His work helped us make smarter decisions, faster.",
+      name: "Faniry R.",
+      designation: "Team Lead",
+      company: "Odity",
+      image: "https://randomuser.me/api/portraits/men/65.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "A reliable and talented data scientist. Erick's models improved our performance across several key metrics.",
+      name: "Frank R.",
+      designation: "Data Analyst",
+      company: "Odity",
+      image: "https://randomuser.me/api/portraits/men/87.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Erick makes data science feel simple. He explains things clearly and delivers results that matter.",
+      name: "Emilie A.",
+      designation: "Product Manager",
+      company: "Super U",
+      image: "https://randomuser.me/api/portraits/women/78.jpg",
     },
   ];
   
