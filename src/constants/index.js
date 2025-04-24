@@ -37,6 +37,7 @@ import {
     scikit,
     aisum,
     portfolio,
+    fraud_detection,
   
   } from "../assets";
   
@@ -194,7 +195,7 @@ import {
       testimonial:
         "Erick quickly turned complex data into clear insights. His work helped us make smarter decisions, faster.",
       name: "Faniry R.",
-      designation: "Team Lead",
+      designation: "ML Engineer",
       company: "Odity",
       image: "https://randomuser.me/api/portraits/men/65.jpg",
     },
@@ -202,7 +203,7 @@ import {
       testimonial:
         "A reliable and talented data scientist. Erick's models improved our performance across several key metrics.",
       name: "Frank R.",
-      designation: "Data Analyst",
+      designation: "Team Lead",
       company: "Odity",
       image: "https://randomuser.me/api/portraits/men/87.jpg",
     },
@@ -260,24 +261,24 @@ import {
       source_code_link: "https://github.com/ErickRandria/my_3D_portfolio",
     },
     {
-      name: "Trip Guide",
+      name: "Fraud Detection",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A machine learning model that detects fraudulent transactions using various algorithms and techniques.",
       tags: [
         {
-          name: "nextjs",
+          name: "Jupyter",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Seaborn",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: fraud_detection,
       source_code_link: "https://github.com/",
     },
   ];
