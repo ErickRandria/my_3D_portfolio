@@ -23,14 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    // upwork,
-    // antananarivo,
-    // kontiki,
-    // ibm,
-    // google,
-    // ska,
-    // leeds,
-
+    ibm,
   } from "../assets";
   
   export const navLinks = [
@@ -77,44 +70,12 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -126,7 +87,7 @@ import {
     {
       title: "IBM DevOps and Software Engineer",
       company_name: "IBM, Coursera",
-      icon: starbucks,
+      icon: ibm,
       iconBg: "#383E56",
       date: "April 2024  - August 2024",
       points: [
