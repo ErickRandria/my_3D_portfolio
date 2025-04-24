@@ -20,7 +20,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-// import { powerbi } from "./tech/powerbi.png";
+import  powerbi from "./tech/powerbi.png";
+import pandas from "./tech/pandas.png";
+import python from "./tech/python.png";
+import flask from "./tech/flask.png";
+import scikit from "./tech/scikit.png";
 
 
 import meta from "./company/meta.png";
@@ -37,6 +41,8 @@ import odity from "./company/odity.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import aisum from "./aisum.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -73,5 +79,12 @@ export {
   ska,
   leeds,
   odity,
-  // powerbi,
+  powerbi,
+  flask,
+  pandas,
+  python,
+  scikit,
+  aisum,
+  portfolio,
+
 };

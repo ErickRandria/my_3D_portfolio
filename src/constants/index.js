@@ -29,7 +29,14 @@ import {
     ska,
     leeds,
     odity,
-    // powerbi,
+    powerbi,
+    flask,
+    pandas,
+    python,
+    scikit,
+    aisum,
+    portfolio,
+  
   } from "../assets";
   
   export const navLinks = [
@@ -67,10 +74,26 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "Power BI",
-    //   icon: powerbi,
-    // },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "scikit",
+      icon: scikit,
+    },
+    {
+      name: "Flask",
+      icon: flask,
+    },
+    {
+      name: "Power BI",
+      icon: powerbi,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -186,16 +209,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI Sum",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to get summary from a website.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
         },
         {
@@ -203,13 +226,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: aisum,
+      source_code_link: "https://makiai.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "My personal portfolio website showcasing my projects and skills.",
       tags: [
         {
           name: "react",
