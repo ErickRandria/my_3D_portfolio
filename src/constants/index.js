@@ -38,6 +38,7 @@ import {
     aisum,
     portfolio,
     fraud_detection,
+    mvola,
   
   } from "../assets";
   
@@ -144,7 +145,7 @@ import {
     {
       title: "Data Scientist",
       company_name: "MVOLA",
-      icon: odity,
+      icon: mvola,
       iconBg: "#383E56",
       date: "Nov 2021 - June 2023",
       points: [
