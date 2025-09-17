@@ -128,40 +128,25 @@ import {
   
   const experiences = [
     {
-      title: "IBM DevOps and Software Engineer",
-      company_name: "IBM, Coursera",
+      title: "Operations Lead",
+      company_name: "McDonald's Canada",
       icon: ibm,
       iconBg: "#383E56",
-      date: "April 2024  - August 2024",
+      date: "July 2023  - present",
       points: [
-        "Gained hands-on experience in DevOps practices, including continuous integration (CI) and continuous delivery (CD).",
-        "Developed proficiency in using DevOps tools like Jenkins, Git, and Docker to automate workflows.",
-        "Implemented cloud solutions and containerized applications using Kubernetes and Docker.",
+        "Optimized staff scheduling by analyzing daily sales and seasonal demand trends, successfully reducing overtime costs by 30%.",
+        "Monitored performance dashboards to evaluate customer satisfaction, order accuracy, and service time, identifying key areas for operational improvement.",
+        "Utilized data-driven decision-making to make informed adjustments to inventory levels, ensuring optimal stock availability and minimizing waste.",
         "Learned about infrastructure as code (IaC) using tools such as Terraform.",
-        "Applied Agile methodologies to project management and software development.",
-        "Collaborated in team-based environments to deliver scalable, reliable, and efficient software solutions.",
-        "Enhanced troubleshooting and debugging skills in both development and production environments."
-      ],
-    },
-    {
-      title: "Introduction to Generative AI Learning Path",
-      company_name: "Google, Coursera",
-      icon: google,
-      iconBg: "#E6DEDD",
-      date: "August 2024",
-      points: [
-        "Gained foundational knowledge in AI, deep learning, and generative models.",
-        "Hands-on experience with GANs, VAEs, NLP models (GPT, BERT), and advanced techniques.",
-        "Developed AI projects including text, image, and audio generation.",
-        "Explored ethics and best practices for responsible AI development.",
+        "Supervised team members, providing clear guidance on individual responsibilities to enhance workflow efficiency and team performance."
       ],
     },
     {
       title: "Data Scientist",
-      company_name: "Odity",
+      company_name: "MVOLA",
       icon: odity,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Nov 2021 - June 2023",
       points: [
         "Setting up data science pipelines for data collection, cleaning, and preprocessing.",
         "Analyze large datasets to extract meaningful insights and trends.",
