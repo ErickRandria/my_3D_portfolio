@@ -27,6 +27,14 @@ import pandas from "./tech/pandas.png";
 import python from "./tech/python.png";
 import flask from "./tech/flask.png";
 import scikit from "./tech/scikit.png";
+import SQL from "./tech/SQL.png";
+import PostgreSQL from "./tech/PostgreSQL.png";
+import Plotly from "./tech/Plotly.png";
+import Matplotlib from "./tech/Matplotlib.png";
+import Pytorch from "./tech/Pytorch.png";
+import Tesorflow from "./tech/Tesorflow.png";
+import AWS from "./tech/AWS.png";
+import tableau from "./tech/tableau.png";
 
 
 import meta from "./company/meta.png";
@@ -39,6 +47,8 @@ import antananarivo from "./company/antananarivo.png";
 import ska from "./company/ska.png";
 import leeds from "./company/leeds.png";
 import odity from "./company/odity.png";
+import mvola from "./company/mvola.png";
+import mcd from "./company/mcd.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -90,5 +100,15 @@ export {
   portfolio,
   goto,
   fraud_detection,
+  mvola,
+  mcd,
+  SQL,
+  PostgreSQL,
+  Plotly,
+  Matplotlib,
+  Pytorch,
+  Tesorflow,
+  AWS,
+  tableau,
 
 };

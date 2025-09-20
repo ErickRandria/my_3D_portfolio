@@ -39,6 +39,15 @@ import {
     portfolio,
     fraud_detection,
     mvola,
+    mcd,
+    SQL,
+    PostgreSQL,
+    Plotly,
+    Matplotlib,
+    Pytorch,
+    Tesorflow,
+    AWS,
+    tableau,
   
   } from "../assets";
   
@@ -59,11 +68,11 @@ import {
   
   const services = [
     {
-      title: "ML/AI Engineer",
+      title: "Data Scientist",
       icon: web,
     },
     {
-      title: "Django Developer",
+      title: "ML/AI Engineer",
       icon: mobile,
     },
     {
@@ -82,28 +91,32 @@ import {
       icon: python,
     },
     {
-      name: "Pandas",
-      icon: pandas,
+      name: "SQL",
+      icon: SQL,
+    },
+    {
+      name: "postgresql",
+      icon: PostgreSQL,
     },
     {
       name: "scikit",
       icon: scikit,
     },
     {
-      name: "Flask",
-      icon: flask,
+      name: "Tesorflow",
+      icon: Tesorflow,
     },
     {
-      name: "React",
-      icon: reactjs,
+      name: "Pytorch",
+      icon: Pytorch,
     },
     {
       name: "Power BI",
       icon: powerbi,
     },
     {
-      name: "Javascript",
-      icon: javascript,
+      name: "tableau",
+      icon: tableau,
     },
     {
       name: "HTML 5",
@@ -130,21 +143,20 @@ import {
   const experiences = [
     {
       title: "Operations Lead",
-      company_name: "McDonald's Canada",
-      icon: ibm,
+      company_name: "McDonald's Canada, Quebec, Canada",
+      icon: mcd,
       iconBg: "#383E56",
       date: "July 2023  - present",
       points: [
         "Optimized staff scheduling by analyzing daily sales and seasonal demand trends, successfully reducing overtime costs by 30%.",
         "Monitored performance dashboards to evaluate customer satisfaction, order accuracy, and service time, identifying key areas for operational improvement.",
         "Utilized data-driven decision-making to make informed adjustments to inventory levels, ensuring optimal stock availability and minimizing waste.",
-        "Learned about infrastructure as code (IaC) using tools such as Terraform.",
         "Supervised team members, providing clear guidance on individual responsibilities to enhance workflow efficiency and team performance."
       ],
     },
     {
       title: "Data Scientist",
-      company_name: "MVOLA",
+      company_name: "MVOLA, Madagascar",
       icon: mvola,
       iconBg: "#383E56",
       date: "Nov 2021 - June 2023",
@@ -159,19 +171,18 @@ import {
     },
     {
       title: "Data Scientist researcher",
-      company_name: "University of Leeds",
+      company_name: "University of Leeds, UK",
       icon: leeds,
       iconBg: "#E6DEDD",
       date: "April 2019 - May 2021",
       points: [
-        "Project title: Using Gaia to derive distances to embedded objects.",
-        "Data Acquisition & Integration: Collect Gaia DR2 astrometric data and integrate extinction measurements to enhance distance accuracy.",
-        "Data Modeling: Develop Bayesian models for extinction along specific lines of sight to infer distances.",
-        "Statistical Inference: Use MCMC sampling to estimate distance posterior distributions from extinction models.",
-        "Data Validation: Validate inferred distances by comparing with maser and kinematic measurements.",
-        "Comparative Analysis: Validate inferred distances by comparing with maser and kinematic measurements.",
-        "Methodological Evaluation: Assess different extinction models and the impact of additional photometric data on accuracy.",
-        "Uncertainty Analysis: Analyze systematic uncertainties and model limitations in complex extinction regions.",
+        "Conducted advanced statistical analysis and machine learning experiments using python (numpy, pandas, scikit-learn).",
+        "Collaborated with interdisciplinary teams to define research objectives, data collection strategies, and experimental designs.",
+        "Developed predictive models for distances of stars achieving 5\% improvement in accuracy compared to previous studies.",
+        "Performed extensive data cleaning, preprocessing, and feature engineering on large-scale datasets.",
+        "Created and maintained reproducible research pipelines using Jupyter notebooks and Git.",
+        "Visualized complex datasets using Matplotlib, Seaborn, Plotly, and Topcat to communicate results effectively.",
+        "Wrote and co-authored research reports documenting methodology, results, and insights.",
       ],
     },
   ];
@@ -182,7 +193,7 @@ import {
         "Erick quickly turned complex data into clear insights. His work helped us make smarter decisions, faster.",
       name: "Faniry R.",
       designation: "ML Engineer",
-      company: "Odity",
+      company: "Mvola",
       image: "https://randomuser.me/api/portraits/men/65.jpg",
     },
     {
@@ -190,7 +201,7 @@ import {
         "A reliable and talented data scientist. Erick's models improved our performance across several key metrics.",
       name: "Frank R.",
       designation: "Team Lead",
-      company: "Odity",
+      company: "Mvola",
       image: "https://randomuser.me/api/portraits/men/87.jpg",
     },
     {
@@ -198,7 +209,7 @@ import {
         "Erick makes data science feel simple. He explains things clearly and delivers results that matter.",
       name: "Emilie A.",
       designation: "Product Manager",
-      company: "Super U",
+      company: "Telma",
       image: "https://randomuser.me/api/portraits/women/78.jpg",
     },
   ];
