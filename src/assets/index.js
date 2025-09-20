@@ -32,7 +32,7 @@ import PostgreSQL from "./tech/PostgreSQL.png";
 import Plotly from "./tech/Plotly.png";
 import Matplotlib from "./tech/Matplotlib.png";
 import Pytorch from "./tech/Pytorch.png";
-import Tesorflow from "./tech/Tesorflow.png";
+import Tensorflow from "./tech/Tensorflow.png";
 import AWS from "./tech/AWS.png";
 import tableau from "./tech/tableau.png";
 
@@ -107,7 +107,7 @@ export {
   Plotly,
   Matplotlib,
   Pytorch,
-  Tesorflow,
+  Tensorflow,
   AWS,
   tableau,
 

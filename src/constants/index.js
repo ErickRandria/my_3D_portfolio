@@ -45,7 +45,7 @@ import {
     Plotly,
     Matplotlib,
     Pytorch,
-    Tesorflow,
+    Tensorflow,
     AWS,
     tableau,
   
@@ -104,7 +104,7 @@ import {
     },
     {
       name: "Tesorflow",
-      icon: Tesorflow,
+      icon: Tensorflow,
     },
     {
       name: "Pytorch",
@@ -119,12 +119,8 @@ import {
       icon: tableau,
     },
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+      name: "aws",
+      icon: AWS,
     },
     {
       name: "MongoDB",
