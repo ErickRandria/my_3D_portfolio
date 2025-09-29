@@ -125,24 +125,16 @@ import {
       icon: AWS,
     },
     {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
       name: "git",
       icon: git,
     },
     {
       name: "docker",
       icon: docker,
-    },
-    {
-      name: "docker",
-      icon: html,
-    },
-    {
-      name: "css",
-      icon: css,
-    },
-    {
-      name: "javascript",
-      icon: javascript,
     },
   ];
   
@@ -290,7 +282,7 @@ import {
         "A project predicting house prices using data features like location, size, and age with machine learning models for accuracy.",
       tags: [
         {
-          name: "RandomForestRegressor",
+          name: "ML",
           color: "blue-text-gradient",
         },
         {
