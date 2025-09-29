@@ -9,8 +9,8 @@ import close from "./close.svg";
 import goto from "./goto.png";
 import credit_fraud from "./credit_fraud.png";
 import guestbook from "./guestbook.png";
-import house_price from "./house_price.png";
 import customer_churn from "./customer_churn.png";
+import house_price from "./house_price.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -102,7 +102,6 @@ export {
   aisum,
   portfolio,
   goto,
-  fraud_detection,
   mvola,
   mcd,
   SQL,
@@ -114,8 +113,7 @@ export {
   AWS,
   tableau,
   credit_fraud,
-  house_price,
+  guestbook,
   customer_churn,
-  guesbook,
-
+  house_price,
 };

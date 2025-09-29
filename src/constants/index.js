@@ -37,7 +37,6 @@ import {
     scikit,
     aisum,
     portfolio,
-    fraud_detection,
     mvola,
     mcd,
     SQL,
@@ -51,8 +50,7 @@ import {
     customer_churn,
     house_price,
     credit_fraud,
-    guesbook,
-  
+    guestbook,
   } from "../assets";
   
   export const navLinks = [
@@ -127,16 +125,24 @@ import {
       icon: AWS,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "docker",
+      icon: html,
+    },
+    {
+      name: "css",
+      icon: css,
+    },
+    {
+      name: "javascript",
+      icon: javascript,
     },
   ];
   
@@ -257,7 +263,7 @@ import {
       image: portfolio  ,
       source_code_link: "https://github.com/ErickRandria/my_3D_portfolio",
     },
-    {
+{
       name: "Customer Churn Prediction",
       description:
         "Predicting which customers are likely to leave using historical data, helping businesses reduce churn and improve retention strategies.",
@@ -284,7 +290,7 @@ import {
         "A project predicting house prices using data features like location, size, and age with machine learning models for accuracy.",
       tags: [
         {
-          name: "ML",
+          name: "RandomForestRegressor",
           color: "blue-text-gradient",
         },
         {
@@ -313,7 +319,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scikit-learn",
+          name: "RandomForestClassifier",
           color: "pink-text-gradient",
         },
       ],
@@ -338,10 +344,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: guesbook,
+      image: guestbook,
       source_code_link: "https://github.com/ErickRandria/Guestbook_app/",
     },
-
   ];
   
   export { services, technologies, experiences, testimonials, projects };
