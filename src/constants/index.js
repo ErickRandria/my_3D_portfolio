@@ -48,6 +48,10 @@ import {
     Tensorflow,
     AWS,
     tableau,
+    customer_churn,
+    house_price,
+    credit_fraud,
+    guesbook,
   
   } from "../assets";
   
@@ -254,26 +258,90 @@ import {
       source_code_link: "https://github.com/ErickRandria/my_3D_portfolio",
     },
     {
-      name: "Fraud Detection",
+      name: "Customer Churn Prediction",
       description:
-        "A machine learning model that detects fraudulent transactions using various algorithms and techniques.",
+        "Predicting which customers are likely to leave using historical data, helping businesses reduce churn and improve retention strategies.",
       tags: [
         {
-          name: "Jupyter",
+          name: "ML",
           color: "blue-text-gradient",
         },
         {
-          name: "Seaborn",
+          name: "xgboost",
           color: "green-text-gradient",
         },
         {
-          name: "Python",
+          name: "Flask",
           color: "pink-text-gradient",
         },
       ],
-      image: fraud_detection,
-      source_code_link: "https://github.com/",
+      image: customer_churn,
+      source_code_link: "https://github.com/ErickRandria/churn_predictor/",
     },
+    {
+      name: "House Price Prediction",
+      description:
+        "A project predicting house prices using data features like location, size, and age with machine learning models for accuracy.",
+      tags: [
+        {
+          name: "ML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pyhton",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scikit-learn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: house_price,
+      source_code_link: "https://github.com/ErickRandria/House_Price_Prediction/",
+    },
+    {
+      name: "Credit Card Fraud Detection ",
+      description:
+        "A project using machine learning to identify and prevent unauthorized or suspicious credit card transactions in real-time.",
+      tags: [
+        {
+          name: "joblib",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "seaborn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scikit-learn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: credit_fraud,
+      source_code_link: "https://github.com/ErickRandria/Credit_Card_fraud_detection/",
+    },
+    {
+      name: "Guestbook App",
+      description:
+        "A Guestbook app on Kubernetes allows users to post messages, storing data in a scalable, containerized, multi-service environment.",
+      tags: [
+        {
+          name: "OpenShift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Kubernetes",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: guesbook,
+      source_code_link: "https://github.com/ErickRandria/Guestbook_app/",
+    },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

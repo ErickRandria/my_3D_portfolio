@@ -7,7 +7,10 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import goto from "./goto.png";
-import fraud_detection from "./fraud_detection.png";
+import credit_fraud from "./credit_fraud.png";
+import guestbook from "./guestbook.png";
+import house_price from "./house_price.png";
+import customer_churn from "./customer_churn.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -110,5 +113,9 @@ export {
   Tensorflow,
   AWS,
   tableau,
+  credit_fraud,
+  house_price,
+  customer_churn,
+  guesbook,
 
 };
